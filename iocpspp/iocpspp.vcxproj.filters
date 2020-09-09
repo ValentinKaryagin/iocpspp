@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="socket.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="socket_factory.h" />
+    <ClInclude Include="event_listener.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="connect_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="disconnect_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="recv_data_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="send_data_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="iocpspp.h" />
+    <ClInclude Include="socket_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="server_event.h">
+      <Filter>events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="socket.cpp" />
+    <ClCompile Include="server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="events">
+      <UniqueIdentifier>{668590e7-a892-4f65-bda7-490361c6e9f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
